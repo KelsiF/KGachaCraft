@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "crafted_item": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": {
+                "recipe": "minecraft:iron_sword"
+            }
+        }
+    },
+    "rewards": {
+        "function": "kgacha:roll_logic"
+    }
+}
