@@ -1,0 +1,1 @@
+item modify entity @s player.cursor kgacha:common_quality

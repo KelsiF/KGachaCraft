@@ -1,0 +1,15 @@
+[
+    {
+        "function": "minecraft:set_components",
+        "components": {
+            "lore": [
+                {
+                    "text": "[Обычный]",
+                    "color": "gray",
+                    "bold": true,
+                    "italic": false
+                }
+            ]
+        }
+    }
+]
