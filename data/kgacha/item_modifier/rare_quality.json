@@ -4,7 +4,7 @@
         "components": {
             "lore": [
                 {
-                    "text": "[Редкий]",
+                    "text": "[Rare]",
                     "color": "#4498DB",
                     "bold": true,
                     "italic": false

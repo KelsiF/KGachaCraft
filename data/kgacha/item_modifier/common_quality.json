@@ -4,7 +4,7 @@
         "components": {
             "lore": [
                 {
-                    "text": "[Обычный]",
+                    "text": "[Common]",
                     "color": "gray",
                     "bold": true,
                     "italic": false

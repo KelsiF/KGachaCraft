@@ -4,7 +4,7 @@
         "components": {
             "lore": [
                 {
-                    "text": "[Эпический]",
+                    "text": "[Epic]",
                     "color": "#8668BF",
                     "bold": true,
                     "italic": false

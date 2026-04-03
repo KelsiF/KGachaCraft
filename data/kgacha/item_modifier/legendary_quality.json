@@ -4,7 +4,7 @@
         "components": {
             "lore": [
                 {
-                    "text": "[Легендарный]",
+                    "text": "[Legendary]",
                     "color": "#FFC07A",
                     "bold": true,
                     "italic": false
