@@ -1,0 +1,1 @@
+execute as @a[predicate=kgacha:need_roll_ironsword] as @s run function kgacha:roll/roll_logic_ironsword

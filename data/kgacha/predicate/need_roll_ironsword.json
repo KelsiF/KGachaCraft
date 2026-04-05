@@ -1,0 +1,13 @@
+{
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+        "slots": {
+            "container.*": {
+                "predicates": {
+                    "custom_data": "{need_roll:true}"
+                }
+            }
+        }
+    }
+}

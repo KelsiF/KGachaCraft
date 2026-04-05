@@ -39,5 +39,9 @@
     {
         "function": "minecraft:set_custom_data",
         "tag": "{quality: \"legendary\"}"
+    },
+    {
+        "function": "set_custom_data",
+        "tag": "{need_roll:false}"
     }
 ]

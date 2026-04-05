@@ -32,5 +32,9 @@
                 "slot": "mainhand"
             }
         ]
+    },
+    {
+        "function": "set_custom_data",
+        "tag": "{need_roll:false}"
     }
 ]

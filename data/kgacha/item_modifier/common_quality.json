@@ -4,12 +4,32 @@
         "components": {
             "lore": [
                 {
-                    "text": "[Обычный]",
+                    "text": "Обычный",
                     "color": "gray",
                     "bold": true,
                     "italic": false
                 }
             ]
-        }
+        },
+        "conditions": [
+            {
+                "condition": "entity_properties",
+                "entity": "this",
+                "predicate": {
+                    "slots": {
+                        "container.*": {
+                            "items": "iron_sword",
+                            "predicates": {
+                                "custom_data": "{need_roll:true}"
+                            }
+                        }
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "function": "set_custom_data",
+        "tag": "{need_roll:false}"
     }
 ]
