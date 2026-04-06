@@ -1,1 +1,0 @@
-scoreboard objectives add kgacha_roll dummy
