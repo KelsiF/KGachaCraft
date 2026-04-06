@@ -1,0 +1,16 @@
+[
+    {
+        "function": "minecraft:set_components",
+        "components": {
+            "lore": [
+                {
+                    "text": "[Common]",
+                    "color": "gray",
+                    "bold": true,
+                    "italic": false
+                }
+            ],
+            "custom_data": "{need_roll:false}"
+        }
+    }
+]

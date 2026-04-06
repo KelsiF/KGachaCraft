@@ -1,0 +1,33 @@
+[
+    {
+        "function": "set_components",
+        "components": {
+            "lore": [
+                {
+                    "text": "[Rare]",
+                    "color": "#4498DB",
+                    "bold": true,
+                    "italic": false
+                }
+            ],
+            "enchantment_glint_override": true
+        }
+    },
+    {
+        "function": "set_attributes",
+        "modifiers": [
+            {
+                "attribute": "block_break_speed",
+                "amount": 0.10,
+                "id": "kgacha:gacha_rare_pickaxe_breakspeed",
+                "operation": "add_multiplied_base",
+                "slot": "mainhand"
+            }
+        ],
+        "replace": false
+    },
+    {
+        "function": "set_custom_data",
+        "tag": "{need_roll:false}"
+    }
+]

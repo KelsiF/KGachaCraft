@@ -1,0 +1,33 @@
+[
+    {
+        "function": "set_components",
+        "components": {
+            "lore": [
+                {
+                    "text": "[Legendary]",
+                    "color": "#FFC07A",
+                    "bold": true,
+                    "italic": false
+                }
+            ],
+            "enchantment_glint_override": true
+        }
+    },
+    {
+        "function": "set_attributes",
+        "replace": false,
+        "modifiers": [
+            {
+                "amount": 0.60,
+                "attribute": "block_break_speed",
+                "id": "kgacha:gacha_legendary_pickaxe_breakspeed",
+                "operation": "add_multiplied_base",
+                "slot": "mainhand"
+            }
+        ]
+    },
+    {
+        "function": "set_custom_data",
+        "tag": "{need_roll:false}"
+    }
+]

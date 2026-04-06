@@ -1,0 +1,19 @@
+{
+    "type": "crafting_shaped",
+    "key": {
+        "B": "#minecraft:stone_tool_materials",
+        "A": "stick"
+    },
+    "pattern": [
+        "BBB",
+        " A ",
+        " A "
+    ],
+    "result": {
+        "count": 1,
+        "id": "stone_pickaxe",
+        "components": {
+            "custom_data": "{need_roll:true}"
+        }
+    }
+}

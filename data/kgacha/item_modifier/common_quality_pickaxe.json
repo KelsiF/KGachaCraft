@@ -1,0 +1,19 @@
+[
+    {
+     "function": "set_components",
+     "components": {
+         "lore": [
+             {
+                 "text": "[Common]",
+                 "color": "gray",
+                 "bold": true,
+                 "italic": false
+                }
+         ]
+     }
+    },
+    {
+        "function": "set_custom_data",
+        "tag": "{need_roll:false}"
+    }
+]

@@ -1,0 +1,34 @@
+[
+    {
+        "function": "minecraft:set_components",
+        "components": {
+            "lore": [
+                {
+                    "text": "[Rare]",
+                    "color": "#4498DB",
+                    "bold": true,
+                    "italic": false
+                }
+            ],
+            "minecraft:enchantment_glint_override": true
+        }
+    },
+    {
+        "function": "minecraft:set_attributes",
+        "replace": false,
+        "modifiers": [
+            
+            {
+                "attribute": "minecraft:attack_damage",
+                "id": "kgacha:gacha_rare_damage",
+                "amount": 0.10,
+                "operation": "add_multiplied_base",
+                "slot": "mainhand"
+            }
+        ]
+    },
+    {
+        "function": "set_custom_data",
+        "tag": "{need_roll:false}"
+    }
+]

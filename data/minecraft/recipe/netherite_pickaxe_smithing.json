@@ -1,0 +1,13 @@
+{
+    "type": "minecraft:smithing_transform",
+    "addition": "#minecraft:netherite_tool_materials",
+    "base": "diamond_pickaxe",
+    "result": {
+        "id": "netherite_pickaxe",
+        "count": 1,
+        "components": {
+            "custom_data": "{need_roll:true}"
+        }
+    },
+    "template": "minecraft:netherite_upgrade_smithing_template"
+}

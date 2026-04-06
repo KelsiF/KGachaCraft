@@ -1,0 +1,14 @@
+{
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+        "slots": {
+            "container.*": {
+                "items": "#kgacha:swords",
+                "predicates": {
+                    "custom_data": "{need_roll:true}"
+                }
+            }
+        }
+    }
+}
