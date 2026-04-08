@@ -1,3 +1,3 @@
-execute as @a[predicate=kgacha:need_roll_sword] as @s run function kgacha:roll/roll_logic_sword
+execute as @a[predicate=kgacha:need_roll_sword] run function kgacha:item_parse/sword_parse
 
-execute as @a[predicate=kgacha:need_roll_pickaxe] as @s run function kgacha:roll/roll_logic_pickaxe
+#execute as @a[predicate=kgacha:need_roll_pickaxe] run function kgacha:item_parse/pickaxe_parse
