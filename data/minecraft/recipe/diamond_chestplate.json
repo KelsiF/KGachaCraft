@@ -1,0 +1,19 @@
+{
+    "type": "crafting_shaped",
+    "category": "equipment",
+    "key": {
+        "X": "minecraft:diamond"
+    },
+    "pattern": [
+        "X X",
+        "XXX",
+        "XXX"
+    ],
+    "result": {
+        "id": "diamond_chestplate",
+        "count": 1,
+        "components": {
+            "custom_data": "{need_roll:true}"
+        }
+    }
+}

@@ -4,8 +4,8 @@
         "components": {
             "lore": [
                 {
-                    "text": "[Epic]",
-                    "color": "#8668BF",
+                    "text": "[Rare]",
+                    "color": "#4498DB",
                     "bold": true,
                     "italic": false
                 }
@@ -18,11 +18,18 @@
         "replace": false,
         "modifiers": [
             {
-                "amount": 0.25,
-                "attribute": "block_break_speed",
-                "id": "kgacha:epic_pickaxe_breakspeed",
+                "attribute": "armor",
+                "amount": 0.025,
+                "id": "kgacha:rare_armor_armor",
+                "operation": "add_multiplied_total",
+                "slot": "armor"
+            },
+            {
+                "amount": 0.10,
+                "attribute": "max_health",
+                "id": "kgacha:rare_armor_health",
                 "operation": "add_multiplied_base",
-                "slot": "mainhand"
+                "slot": "armor"
             }
         ]
     },
