@@ -22,14 +22,14 @@
         "modifiers": [
             {
                 "attribute": "attack_damage",
-                "amount": 0.50,
+                "amount": 0.40,
                 "id": "kgacha:gacha_legendary_damage",
                 "operation": "add_multiplied_base",
                 "slot": "mainhand"
             },
             {
                 "attribute": "attack_speed",
-                "amount": 0.50,
+                "amount": 0.30,
                 "id": "kgacha:gacha_legendary_attackspeed",
                 "operation": "add_multiplied_base",
                 "slot": "mainhand"

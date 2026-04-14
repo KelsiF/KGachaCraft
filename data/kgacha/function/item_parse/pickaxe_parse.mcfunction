@@ -1,3 +1,4 @@
+scoreboard players set @s roll_lock 0
 execute if items entity @s container.0 *[custom_data="{need_roll:true}"] run function kgacha:roll/roll_logic_pickaxe
 execute if items entity @s container.1 *[custom_data="{need_roll:true}"] run function kgacha:roll/roll_logic_pickaxe
 execute if items entity @s container.2 *[custom_data="{need_roll:true}"] run function kgacha:roll/roll_logic_pickaxe

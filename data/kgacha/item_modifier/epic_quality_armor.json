@@ -18,11 +18,18 @@
         "replace": false,
         "modifiers": [
             {
+                "attribute": "armor",
+                "amount": 0.0625,
+                "id": "kgacha:epic_armor_armor",
+                "operation": "add_multiplied_total",
+                "slot": "armor"
+            },
+            {
+                "attribute": "max_health",
                 "amount": 0.25,
-                "attribute": "block_break_speed",
-                "id": "kgacha:epic_pickaxe_breakspeed",
+                "id": "kgacha:epic_armor_health",
                 "operation": "add_multiplied_base",
-                "slot": "mainhand"
+                "slot": "armor"
             }
         ]
     },

@@ -18,11 +18,25 @@
         "replace": false,
         "modifiers": [
             {
+                "attribute": "armor",
+                "id": "kgacha:legendary_armor_armor",
+                "amount": 0.125,
+                "operation": "add_multiplied_total",
+                "slot": "armor"
+            },
+            {
+                "attribute": "max_health",
+                "id": "kgacha:legendary_armor_health",
                 "amount": 0.40,
-                "attribute": "block_break_speed",
-                "id": "kgacha:gacha_legendary_pickaxe_breakspeed",
                 "operation": "add_multiplied_base",
-                "slot": "mainhand"
+                "slot": "armor"
+            },
+            {
+                "attribute": "armor_toughness",
+                "amount": 0.5,
+                "id": "kgacha:legendary_armor_armortoughness",
+                "operation": "add_value",
+                "slot": "armor"
             }
         ]
     },
